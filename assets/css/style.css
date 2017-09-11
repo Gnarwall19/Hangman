@@ -1,0 +1,41 @@
+body {
+	background-image: url("../images/background.jpg");
+	font-family: 'Share Tech', monospace;
+}
+
+#press-to-start {
+	color: white;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#answer {
+	font-size:40px;
+	color: white;
+}
+
+#logo {
+	display: block;
+    margin: auto;
+    width: 55%;
+}
+
+#HangmanImg {
+	opacity: .5;
+	width: 20%;
+}
+
+.games {
+	color: white;
+	font-size: 20px;
+}
+
+.turns {
+	color: white;
+}
+
+#wrongGuesses {
+	color: red;
+	font-size: 26px;
+	font-weight: bold;
+}
