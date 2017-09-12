@@ -39,3 +39,65 @@ body {
 	font-size: 26px;
 	font-weight: bold;
 }
+
+footer {
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+}
+
+#credit {
+	float: right;
+	font-size: 10px;
+	color: black;
+}
+
+
+/*media queries*/
+
+@media screen and (max-width: 980px) {
+	body {
+		min-height: 100%
+	}
+
+
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+	body {
+		min-height: 100%;
+	}
+}
+
+
+/*phone*/
+@media screen and (max-width: 640px) {
+	body {
+		min-height: 1000px;
+	}
+
+	#logo {
+		width: 100%;
+
+	} 
+
+	nav {
+		text-align: center;
+		float: left;
+	}
+
+	nav a {
+		padding-left: 93px;
+	}
+
+	footer {
+		height: auto;
+	}
+
+}
+
+
+/*smaller phone*/
+@media screen and (max-width: 480px) {
+
+}
