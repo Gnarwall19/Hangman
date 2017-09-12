@@ -43,6 +43,7 @@ function start() {
 
 //main game function
 function Game() {
+	audio.loop = true;
 	audio.play();
 
 	document.onkeyup = function(event) {
